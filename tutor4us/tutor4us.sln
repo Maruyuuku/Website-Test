@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDFFBA9B-EA86-418D-ADB2-8A12A85BB79D}"
+	ProjectSection(SolutionItems) = preProject
+		contact.html = contact.html
+		course.html = course.html
+		home.html = home.html
+		log-in.html = log-in.html
+		Py_getstarted.html = Py_getstarted.html
+		py_page2.html = py_page2.html
+		Py_page3.html = Py_page3.html
+		signup.html = signup.html
+		style.css = style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {706A3C71-5CC6-4FE4-884B-67D20DB78182}
+	EndGlobalSection
+EndGlobal

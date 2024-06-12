@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="Script.js"></script>
+</head>
+<body>
+    
+    <img class="login_pic" src="designer2.webp" />
+    
+    <form method="post" name="login_form" class="login_form">
+        
+            <h1 align="center">Sign In</h1>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required> <br /> <br />
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required> <br /> <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" name="submit" onclick="return checkform()" value="Login" />
+            <br /><br /><br />
+            <div class="donthaveaccount">
+                <label style="font-weight:bold;" for="create">Don't have an account? </label>
+                <a name="create" style="font-size: 10pt; color: blue; " href="signup.html">  create an account</a>
+            </div> 
+    </form>
+
+</body>
+</html>

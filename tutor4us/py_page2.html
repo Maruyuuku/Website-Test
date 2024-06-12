@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="Script.js"></script>
+    <title>Python Keywords and Identifiers</title>
+</head>
+<body>
+
+    <!--Main Navigation bar-->
+    <div class="navbar" style="position: fixed; z-index: 2; height:10%; ">
+        <a class="logo" href="home.html">Tutor<span class="logo_span">4</span>Us</a>
+        <div class="link">
+            <a href="home.html">Home</a> &nbsp;&nbsp;
+            <a href="course.html">Courses</a> &nbsp;&nbsp;
+            <a href="signup.html">Sign-up</a> &nbsp;&nbsp;
+            <a href="log-in.html">Login</a>
+        </div>
+    </div>
+
+    <!--Course Navigation bar-->
+    <div class="nav_container">
+        <nav class="py_nav">
+            <br /><br /><br /><br /><br /><br /><br />
+            <h2 align="center">Python Introduction</h2><hr /><br />
+            <ul>
+                <li><a class="py_a" href="Py_getstarted.html">Getting Started</a><br /><br /></li>
+                <li><a class="py_a" href="py_page2.html">Comments, Keywords and Identifier</a><br /><br /></li>
+                <li><a class="py_a" href="Py_page3.html">Python Datatypes and Variables</a><br /><br /></li>
+                <li><a class="py_a" onclick="pypage()" href="#">Datatype conversion</a><br /><br /></li>
+                <li><a class="py_a" onclick="pypage()" href="#">Python I/O, importing and Namespace</a><br /><br /></li>
+                <li><a class="py_a" onclick="pypage()" href="#">Python flow control </a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!--THE PAGE CONTENT-->
+    <div class="py_gs_everything">
+        <article class="py_article">
+            <br /><br /><br /><br /><br /><br />
+
+
+            <h1 align="center" style="margin-right:3cm;font-size:27pt;">Python Keywords and Identifiers</h1><br />
+            <!--PYTHON KEYWORDS-->
+            <u style="margin-left: 8cm; font-size: 20pt;" class="py_h_font"><b>Python Keywords</b></u>
+            <p class="py_p_font">Keywords are predefined, reserved words used in Python programming that have special meanings to the compiler.</p>
+            <p class="py_p_font">We cannot use a keyword as a <b>variable</b> name <i>(see index)</i>, <b>function</b> name <i>(see index)</i>, or any other identifier. They are used to define the syntax and structure of the Python language.</p>
+            <p class="py_p_font">All the keywords except <i>True</i>, <i>False</i> and <i>None</i> are in lowercase and they must be written as they are. The list of all the keywords is given below.</p> <br />
+            <img src="keyword.png" style="margin-left:3cm;" /> <br />
+            <p class="py_p_font">Looking at all the keywords at once and trying to figure out what they mean might be overwhelming.</p> <br />
+            <hr />
+            <br />
+            <!--PYTHON IDENTIFIERS-->
+            <u style="margin-left: 8cm; font-size: 20pt;" class="py_h_font"><b>Python Identifiers</b></u>
+            <p class="py_p_font">Identifiers are the name given to variables, classes, methods, etc. For example,</p>
+            <img src="lang.png" /> <br />
+            <p class="py_p_font">Here, <i>language</i> is a variable (an identifier) which holds the value <i>'Python'</i>.</p>
+            <p class="py_p_font">We cannot use keywords as variable names as they are reserved names that are built-in to Python. For example,</p>
+            <img src="continue1.png" /> <br />
+            <p class="py_p_font">The above code is wrong because we have used continue as a variable name. </p>
+            <hr /><br />
+
+            <!--RULES FOR PYTHON IDENTIFIERS-->
+            <u style="margin-left: 8cm; font-size: 20pt;" class="py_h_font"><b>Python Keywords</b></u><br />
+            <ul>
+                <li><p class="py_p_font">Identifiers cannot be a keyword.</p></li>
+                <li><p class="py_p_font">Identifiers are case-sensitive.</p></li>
+                <li><p class="py_p_font">It can have a sequence of letters and digits. However, it must begin with a letter or _. The first letter of an identifier cannot be a digit.</p></li>
+                <li><p class="py_p_font">It's a convention to start an identifier with a letter rather <i>_</i></p></li>
+                <li><p class="py_p_font">Whitespaces are not allowed.</p></li>
+                <li><p class="py_p_font">We cannot use special symbols like <b>!, @, #, $,</b> and so on.</p></li>
+            </ul><br /> <hr /> <br />
+            <u style="margin-left: 8cm; font-size: 20pt;" class="py_h_font"><b>Some Valid and Invalid Identifiers in Python</b></u><br /><br />
+            <img src="identifier.png" /> <br /><br /><hr /> <br /> <br />
+            <u style="margin-left: 8cm; font-size: 20pt;" class="py_h_font"><b>Index (plus notes to remember)</b></u><br />
+            <p class="py_p_font"><b>Variable: </b>a variable is a named storage location in a computer's memory where data can be stored and retrieved.</p><br />
+            <p class="py_p_font"><b>Function: </b> a self-contained block of code that performs a specific task or a set of related tasks.</p> <br />
+            <p class="py_p_font"><b>Class: </b>a blueprint or a template for creating objects. It defines the structure and behavior of objects of a certain type.</p><br />
+            <p class="py_p_font">Python is a case-sensitive language. This means, <i>Variable</i> and <i>variable</i> are not the same. Always give the identifiers a name that makes sense. While <i>c = 10 is a valid name</i>, writing <i>count = 10</i> would make more sense, and it would be easier to figure out what it represents when you look at your code after a long gap. Multiple words can be separated using an underscore, like <i>this_is_a_long_variable</i>. </p> <br />
+        </article>
+    </div>
+</body>
+</html>

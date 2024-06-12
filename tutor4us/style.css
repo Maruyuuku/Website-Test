@@ -1,0 +1,444 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HOME.HTML*/
+/* HOME.HTML*/
+/* HOME.HTML*/
+
+
+/* Welcome */
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:link{
+    color:white;
+}
+.logo{
+    width: 50%;
+    height: 20%;
+    padding-right: 1cm;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-size: 27pt;
+    color: white;
+    margin-right: 2cm;
+    
+}
+
+.logo_span{
+    font-size: 12pt;
+    color: lightgoldenrodyellow;
+}
+
+.nav_bar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e1e1e;
+    width: 88.7%;
+    height: 30%;
+    position: sticky;
+    color: white;
+    font-size: 16pt;
+    padding: 2mm 2cm 6mm 2cm;
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    margin-top: 1cm;
+    float: right;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+.nav_bar:hover{
+    text-decoration: dashed;
+}
+
+.welcome_container {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url();
+}
+.welcome {
+    margin-left: 38%;
+    color: black;
+}
+
+.button_start {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #111111;
+    color: white;
+    border: 1px solid black;
+    padding: 2mm 1cm 2mm 1cm;
+    margin-bottom: 2cm;
+    margin-top:1cm;
+}
+
+.welcome_p{
+    margin-left: 5mm;
+}
+/* About Us */
+#about_us {
+    /*this is the text itself "ABOUT US"*/
+    margin-top: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+    
+}
+.aboutus_container {
+    color: white;
+    background-color: #111111;
+    width: 100%;
+    height: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.column {
+    width: 40%;
+    height: 60%;
+    margin-bottom: 1cm;
+    display: inline-block;
+    padding: 1cm 50px 1cm 1cm;
+}
+
+/*Meet out Tutors*/
+.meetourtutors{
+    /*This is for the text itself "Meet our Tutors"*/
+    font-size: 20pt;
+}
+
+img{
+    width:70%;
+    height: 70%;
+}
+.tutor_container {
+    /*never used this and I'm not sure if
+        this class is evidently useless*/
+
+}
+
+.tutor{
+    padding: 1cm 1cm 1cm 1cm;
+    display: inline-block;
+    width: 40%;
+    height:90%;
+}
+
+/*Contact Us Information*/
+.contactus_container {
+    
+    background-color: #111111;
+}
+.contactus{
+    margin-bottom: 2cm;
+    margin-left: 3rem;
+    /*this is the text itself "contact us"*/
+    color: white;
+}
+.contact_info{
+    color: white;
+    width: 20%;
+    margin-left: 2rem;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+/*LOG-IN.HTML'S CSS*/
+/*LOG-IN.HTML'S CSS*/
+/*LOG-IN.HTML'S CSS*/
+
+.login_pic {
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    position: fixed;
+}
+
+
+.login_form input[type="radio"] {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.login_form {
+    transform: scale(1.1);
+    z-index: 1;
+    position: fixed;
+    width: 400px;
+    margin-left: 12cm;
+    margin-top: 5cm;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 67%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    width: 4cm;
+    padding: 10px;
+    border: none;
+    background-color: dimgrey;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+    input[type="submit"]:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        width: 5cm;
+        height: 105%;
+        padding: 10px;
+        border: none;
+        background-color: #111111;
+        color: white;
+        font-weight: bold;
+    }
+
+.donthaveaccount{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/*COURSE.HTML'S CSS*/
+/*COURSE.HTML'S CSS*/
+/*COURSE.HTML'S CSS*/
+
+
+.container{
+    display: inline-block;
+}
+/*Java and python logo*/
+.java_class {
+    margin-left: 1cm;
+    height: 6cm;
+    width: 5cm;
+    transform: scale(1.0);
+    transition-duration: 0.4s;
+}
+
+
+.python_class {
+    float: right;
+    margin-bottom: 16cm;
+    height: 6cm;
+    width: 5cm;
+    transform: scale(1.0);
+    transition-duration: 0.4s;
+}
+
+    .java_class:hover, .python_class:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: white;
+        font-size: 13pt;
+    }
+
+/* C++ and C# logo */
+
+.cpp_class{
+    margin-left: 3cm;
+    height: 5cm;
+    width: 5cm;
+    transform: scale(1.0);
+    transition-duration: 0.4s;
+}
+.csharp_class {
+    float: right;
+    margin-bottom: 16cm;
+    height: 6cm;
+    width: 5cm;
+    transform: scale(1.0);
+    transition-duration: 0.4s;
+}
+
+
+.cpp_class:hover, .csharp_class:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: white;
+    font-size: 13pt;
+}
+
+/* HTML and CSS logo */
+
+.html_class {
+    margin-left: 3cm;
+    height: 5cm;
+    width: 5cm;
+    transform: scale(1.0);
+    transition-duration: 0.4s;
+}
+
+.css_class {
+    float: right;
+    margin-bottom: 16cm;
+    height: 6cm;
+    width: 5cm;
+    transform: scale(1.0);
+    transition-duration: 0.4s;
+}
+
+
+    .html_class:hover, .css_class:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: white;
+        font-size: 13pt;
+    }
+
+/* Javascript and SQL logo */
+
+.javascript_class {
+    margin-left: 3cm;
+    height: 5cm;
+    width: 5cm;
+    transform: scale(1.0);
+    transition-duration: 0.4s;
+}
+
+.sql_class {
+    float: right;
+    margin-bottom: 16cm;
+    height: 6cm;
+    width: 5cm;
+    transform: scale(1.0);
+    transition-duration: 0.4s;
+}
+
+
+    .javascript_class:hover, .sql_class:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+        background-color: white;
+        font-size: 13pt;
+    }
+
+
+/*signup.html's CSS*/
+/*signup.html's CSS*/
+/*signup.html's CSS*/
+/*MOST OF IT IS IN LOGIN CSS*/
+
+.signup_form {
+    transform: scale(1.1);
+    z-index: 1;
+    position: fixed;
+    width: 400px;
+    margin-left: 12cm;
+    margin-top: 2cm;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+/* py_page1's CSS */
+/* py_page1's CSS */
+/* py_page1's CSS */
+
+
+
+
+
+/*Py_getstarted.html's CSS*/
+/*Py_getstarted.html's CSS*/
+/*Py_getstarted.html's CSS*/
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e1e1e;
+    width: 88.7%;
+    height: 30%;
+    position: fixed;
+    color: white;
+    font-size: 16pt;
+    padding: 2mm 2cm 6mm 2cm;
+
+    
+}
+.py_a{
+    color: white;
+}
+.py_a:hover{
+    color: navajowhite;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.py_nav {
+    height: 100%;
+    border-radius: 2px;
+    border: 2px solid black;
+    background-color: #111111;
+    color: white;
+    width: 90%;
+    z-index: -1;
+}
+.nav_container{
+    position: fixed;
+}
+
+.py_article{
+    
+    margin-left: 25%;
+    width: 70%;
+    height: 90%;
+}
+
+.py_gs_everything{
+    margin-bottom:3cm;
+
+    height:90%;
+}
+
+.py_p_font{
+    font-size: 15pt;
+}
+
+.py_h_font {
+}
+
+
+
+
+/*py_page2's CSS*/
+/*py_page2's CSS*/
+/*py_page2's CSS*/
+
+
+
+    

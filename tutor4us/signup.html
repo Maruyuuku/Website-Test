@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="Script.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <img class="login_pic" src="designer.jpg" /> <!--Background Image-->
+
+    <form class="signup_form" name="signup_form">
+
+        <h1 align="center">Sign Up</h1>
+
+        <label for="firstname">First Name:</label>
+        <input type="text" id="signup_firstname" name="name" required> <br /> <br />
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="name" required> <br /> <br />
+
+        <label for="username">Username:</label>
+        <input type="text" id="signup_username" name="name" required> <br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="student">Student</label>
+        <input type="radio" id="student" name="occupation" required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <label for="tutor">Tutor</label>
+        <input type="radio" id="tutor" name="occupation" required><br /> <br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br /> <br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="signup_password" name="password" required> <br /> <br />
+
+        <input type="submit" onclick="return signup()" value="Sign Up" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" onclick="return redirect_to_login()" value="Go to Login" />
+    </form>
+</body>
+</html>
